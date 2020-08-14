@@ -1,0 +1,114 @@
+@media(max-width: 600px) {
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        background: green;
+    }
+
+    .title {
+        margin-top: 1rem;
+        font-size: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+    }
+
+    .main i {
+        display: none;
+    }
+
+    .links {
+        margin-top: 4rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .links a {
+        font-size: 1rem;
+    }
+
+    .lead-text {
+        font-size: 1rem;
+    }
+
+    .results {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .results p {
+        font-size: 1rem;
+        max-width: 300px;
+    }
+
+    #form {
+        display: flex;
+        justify-content: center;
+    }
+
+    #form input {
+        height: 15px;
+        width: 25%;
+        font-size: 0.8rem;
+    }
+
+    #form button {
+        height: 25px;
+        font-size: 1rem;
+    }
+    .footer {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        font-size: 0.6rem;
+        margin: auto;
+    }
+
+    .footer .copyright {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        font-size: 0.8rem;
+        position: sticky;
+        margin: 0 2px;
+        padding-bottom: 2px;
+    }
+
+    /*About page*/
+    .about-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-container img {
+        margin-left: 4rem;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-container .about-text {
+        max-width: 150px;
+        font-size: 0.7rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: stretch;
+        margin: auto;
+        position: absolute;
+    }
+
+    .help-msg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 300px;
+        margin: auto;
+        font-size: 1rem;
+        padding-top: 3rem;
+    }
+
+}
