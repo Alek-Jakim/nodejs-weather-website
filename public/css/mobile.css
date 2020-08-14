@@ -40,8 +40,12 @@
     }
 
     .results p {
-        font-size: 1rem;
+        font-size: 0.80rem;
         max-width: 300px;
+    }
+
+    .forecast {
+        font-size: 0.8rem;
     }
 
     #form {
