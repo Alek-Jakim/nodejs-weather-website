@@ -7,7 +7,7 @@ const getLocation = async (e) => {
     e.preventDefault();
     let searchValue = search.value
     try {
-        const res = await fetch(`http://localhost:3000/weather?address=${searchValue}`)
+        const res = await fetch(`/weather?address=${searchValue}`)
         const data = await res.json();
 
         if (data.error) {
