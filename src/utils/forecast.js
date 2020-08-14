@@ -16,7 +16,7 @@ const forecast = (latitude, longitude, cb) => {
         } else {
             console.log(response.body)
             // cb(undefined, `In ${response.body.location.region}, ${response.body.location.country}, the temperature today will be ${response.body.current.temperature} degrees Celcius. Expected weather throughout the day: ${response.body.current.weather_descriptions}`);
-            cb(undefined, `Weather: ${response.body.current.weather_descriptions}. It is currently ${response.body.current.temperature} °C with ${response.body.current.humidity}% humidity. There is a ${response.body.current.precip}% chance of rain.`)
+            cb(undefined, `Weather: ${response.body.current.weather_descriptions}. It is currently ${response.body.current.temperature}°C with ${response.body.current.humidity}% humidity and a UV index of ${response.body.current.uv_index}. There is a ${response.body.current.precip}% chance of rain.`)
         }
     })
 }
