@@ -13,7 +13,7 @@ const getLocation = async (e) => {
         if (data.error) {
 
             resultContainer.innerHTML = `
-            <p>Error: Location Not Found! Please Try Again!</p>
+            <p>Location Not Found! Please Try Again!</p>
             `
             search.value = ''
             clearError();

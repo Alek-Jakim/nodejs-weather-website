@@ -1,4 +1,4 @@
-@media(max-width: 600px) {
+@media(max-width: 700px) {
     .main-container {
         display: flex;
         flex-direction: column;
@@ -55,7 +55,7 @@
 
     #form input {
         height: 15px;
-        width: 25%;
+        width: 28%;
         font-size: 0.8rem;
     }
 
@@ -84,25 +84,25 @@
     /*About page*/
     .about-container {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .about-container img {
-        margin-left: 4rem;
-        width: 100px;
+        margin: auto;
+        width: 200px;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .about-container .about-text {
-        max-width: 150px;
-        font-size: 0.7rem;
+    .about-text {
+        max-width: 350px;
+        font-size: 1rem;
         display: flex;
         flex-direction: column;
-        justify-content: stretch;
-        margin: auto;
-        position: absolute;
+        justify-content: center;
+        margin: auto 20px;
     }
 
     .help-msg {
